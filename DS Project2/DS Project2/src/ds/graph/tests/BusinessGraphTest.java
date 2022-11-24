@@ -31,7 +31,6 @@ class BusinessGraphTest {
 		bg.addVertex(a5);
 		
 		
-	
 		Business b1 = new Business("Business6", 60, .6f);
 		Business b2 = new Business("Business7", 70, .7f);
 		Business b3 = new Business("Business8", 80, .8f);

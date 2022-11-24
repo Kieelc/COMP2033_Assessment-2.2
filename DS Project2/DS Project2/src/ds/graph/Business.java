@@ -54,12 +54,9 @@ public class Business extends Person{
 			
 		}
 		
-		
-		
-		
+			
 		
 	}
-	
 	
 	
 	

@@ -1,14 +1,11 @@
 package ds.graph.tests;
 
 import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import ds.graph.BusinessGraph;
 import ds.graph.Person;
 import ds.graph.Business;
-
 
 class BusinessTest {
 

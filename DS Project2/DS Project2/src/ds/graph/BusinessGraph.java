@@ -9,7 +9,7 @@ public class BusinessGraph {
 		public ArrayList<Business> vertices = new ArrayList<Business>();
 		
 		
-		
+		//Add vertex method 
 		public void addVertex(Business bus) {
 			if (vertices.contains(bus.name))
 				throw new PersonAlreadyExists("Cannot create new vertex with existing person.");
@@ -17,7 +17,7 @@ public class BusinessGraph {
 			
 		}
 		
-		
+		//removesvertex method
 		public void removeVertex(Business bus) {
 			
 			for (int i = 0; i < numVertices; i++)
@@ -31,17 +31,18 @@ public class BusinessGraph {
 			
 		}
 		
-		
+		//total person infected method
 		public int totalPersonInfected(Business start) {
 			return 0;
 		}
 		
-		
+		// method to calculate the steps
 		public int minStepsToDestFromStart(Business start, Business dest) {
 			return 0;
 			
 		}
 		
+	       
 		public boolean isStronglyConnected(Business start) {
 			return false;
 			 

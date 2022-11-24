@@ -5,6 +5,7 @@ import java.util.Objects;
 
 public class Business extends Person{
 	
+	//Constructor
 	public Business(String name, int age, float socialHygine) {
 		super(name, age, socialHygine);	
 	}
@@ -16,7 +17,7 @@ public class Business extends Person{
 	
 	
  
-	
+	//Add Edge method 
 	public void addEdge(Business dest, Person route) throws BusinessDoesNotExist, PersonDoesNotExist {
 		
 		
@@ -59,7 +60,7 @@ public class Business extends Person{
 	}
 	
 	
-	
+	//Remove Edge method
 	public void removeEdge(Business dest) {
 		edges.remove(dest);
 			
